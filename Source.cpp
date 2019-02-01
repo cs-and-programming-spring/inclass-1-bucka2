@@ -84,6 +84,73 @@ int main()
 
 		system("pause");
 
+
+
+		/** 
+		* A program that converts degrees in celsius to degrees in farenheit.
+		*
+		*@author Alex Buck
+		*@email bucka2@students.rowan.edu
+		*/
+
+		int degF, degC;
+
+		cout << "\n\nThis program converts temperatures in celsius to degrees in farenheit" << endl;
+		cout << "Please input the degrees in celsius:" << endl;
+		
+		cin >> degC;
+		degF = (9 / 5) * degC + 32;
+
+		cout << "Degrees in celsius:" << degC << endl;
+		cout << "Degrees in Farenheit: " << degF << endl;
+		
+		cout << "This program has ended" << endl;
+		system("pause");
+
+		/**
+ * A program that, given an age in years, will compute the time to months, days, hours, and seconds.
+ *
+ * @author Alex Buck
+ * @email bucka2@students.rowan.edu
+ */
+
+		int years, months, days, hours, seconds;
+
+		cout << "This program converts ages in years to ages in terms of months, days, hours and seconds" << endl;
+		cout << "Please input your age in years: ";
+
+		cin >> years;
+		months = years * 12;
+		days = years * 365;
+		hours = days * 24;
+		seconds = hours * 60;
+
+		cout << "\nYour age in years: " << years << endl;
+		cout << "Your age in months: " << months << endl;
+		cout << "Your age in days: " << days << endl;
+		cout << "Your age in hours: " << hours << endl;
+		cout << "Your age in seconds: " << seconds << endl;
+
+		cout << "This program has ended" << endl;
+		system("pause");
+
+		/**
+		  * A program that prints out the block letter A
+		  *
+		  * @author Alex Buck
+		  * @email bucka2@students.rowan.edu
+		  */
+
+		cout << "The letter a will now be printed with *" << endl;
+		cout << "  **  " << endl;
+		cout << " *  * " << endl;
+		cout << "*    *" << endl;
+		cout << "******" << endl;
+		cout << "*    *" << endl;
+		cout << "*    *" << endl;
+
+		system("pause");
+
 		return 0;
 }
 	
